@@ -1,0 +1,2 @@
+requires 'Carton';
+requires 'Mojolicious';
