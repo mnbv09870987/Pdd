@@ -1,0 +1,11 @@
+DB_CLEAN_PASS=DyKYIXIVx3YOMeSV
+DB_CLEAN_USER=pdd_cleaner
+DB_DRVR=Pg
+DB_DSN=dbi:Pg:dbname=pdd;host=databases;port=5432
+DB_HOST=databases
+DB_NAME=pdd
+DB_PASS=kyo2w05mjUX8qCkw
+DB_PORT=5432
+DB_ROOT=DLyafwiSdWvTjFI1
+DB_TYPE=PostgreSQL
+DB_USER=pdd

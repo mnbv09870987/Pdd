@@ -21,7 +21,7 @@ gen_conf:
 	${APP} db_env > ${CONF_DIR}/db_env.conf
 
 # $(shell ${APP} db_env > ${CONF_DIR}/db_env.conf)
-# include ${CONF_DIR}/db_env.conf
+include ${CONF_DIR}/db_env.conf
 
 
 

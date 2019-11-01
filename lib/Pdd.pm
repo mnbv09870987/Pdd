@@ -5,8 +5,10 @@ use Mojo::Base 'Mojolicious';
 sub startup {
   my $self = shift;
 
-  # Load configuration from hash returned by config file
-  my $config = $self->plugin('Config');
+  unshift @{ $self->commands->namespaces }, 'Pdd::Command';
+
+  # Load configuration from hash returned by "my_app.conf"
+  my $config = $self->plugin('Config', {file => 'etc/pdd.conf'});
 
   # Configure the application
   $self->secrets($config->{secrets});
