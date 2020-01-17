@@ -13,6 +13,8 @@ sub startup {
   # Configure the application
   $self->secrets($config->{secrets});
 
+  Pdd::Helper::add_helpers( $self );
+
   # Router
   my $r = $self->routes;
 
