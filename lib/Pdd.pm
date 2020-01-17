@@ -1,13 +1,15 @@
 package Pdd;
 use Mojo::Base 'Mojolicious';
 
+use Pdd::Helper;
+
 # This method will run once at server start
 sub startup {
   my $self = shift;
 
   unshift @{ $self->commands->namespaces }, 'Pdd::Command';
 
-  # Load configuration from hash returned by "my_app.conf"
+  # Load configuration from hash returned by config file
   my $config = $self->plugin('Config', {file => 'etc/pdd.conf'});
 
   # Configure the application
@@ -20,6 +22,7 @@ sub startup {
 
   # Normal route to controller
   $r->get('/')->to('actions#start');
+
 }
 
 1;

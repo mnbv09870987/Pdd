@@ -26,7 +26,7 @@ sub db_connection {
 	my $DB =  $c->app->config->{ db };
 	$DB->{ DSN } =  sprintf "dbi:%s:dbname=%s;host=%s;port=%s",  @$DB{ qw/ DRVR NAME HOST PORT / };
 
-	$schema //=  MyApp::Schema->connect( $DB->{ DSN },  @$DB{ qw/ USER PASS / },  {
+	$schema //=  Pdd::Schema->connect( $DB->{ DSN },  @$DB{ qw/ USER PASS / },  {
 		AutoCommit => 1,
 		RaiseError => 1,
 		PrintError => 1,
