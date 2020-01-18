@@ -23,6 +23,7 @@ sub startup {
   # Normal route to controller
   $r->get('/')->to('actions#start');
 
+  warn "APPLICATION STARTED\n";
 }
 
 1;
