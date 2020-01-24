@@ -21,7 +21,11 @@ sub startup {
   my $r = $self->routes;
 
   # Normal route to controller
-  $r->get('/')->to('actions#start');
+  $r->get('/')->to('actions#registration') -> name( 'registration' );
+  $r->post('/registration')->to('actions#registration_post');
+
+  $r->get( '/show_question' )->to( 'actions#show_question' )->name( 'show_question' );
+
 
   warn "APPLICATION STARTED\n";
 }

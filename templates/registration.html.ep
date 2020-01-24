@@ -1,0 +1,19 @@
+<meta charset="utf-8">
+
+<form action="/registration" method="POST">
+
+	<p><b> Введите свою Фамилию </b></p>
+	<input name = "surname" type = "text" >
+
+	<p><b> Введите своё Имя </b></p>
+	<input name = "name" type = "text" >
+
+	<p><b> Введите своё Отчество </b></p>
+	<input name = "middle_name" type = "text" >
+
+	<p><b> Введите свой возвраст </b></p>
+	<input name = "age" type = "text" >
+
+	<input type = "submit" value = "Начать">
+
+</form>
