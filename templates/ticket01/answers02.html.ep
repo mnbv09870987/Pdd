@@ -1,0 +1,4 @@
+<p><b>В каких направлениях Вам разрешено продолжить движение?</b></p>
+<input type="radio" name="answer" value="1" >Только Б.<br>
+<input type="radio" name="answer" value="2" >Толико А или Б.<br>
+<input type="radio" name="answer" value="3" >В любых.<br>

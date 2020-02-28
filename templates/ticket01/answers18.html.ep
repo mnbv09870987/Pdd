@@ -1,0 +1,4 @@
+<input type="radio" name="answer" value="1" >Не работают запоры горловин топливных баков.<br>
+<input type="radio" name="answer" value="2" >Не работаер механизм регулировки сиденья водителя.<br>
+<input type="radio" name="answer" value="3" >Не работает устройство обогрева и обдува стекла.<br>
+<input type="radio" name="answer" value="4" >Не работает стеклоподъёмник.<br>

@@ -1,0 +1,5 @@
+<p><b>По какой траектории Вы имеете право выполнить разворот,
+управляя автопоездом, имеющим большую длину?</b></p>
+<input type="radio" name="answer" value="1" >Только по А.<br>
+<input type="radio" name="answer" value="2" >Долько по Б.<br>
+<input type="radio" name="answer" value="3" >По любой.<br>

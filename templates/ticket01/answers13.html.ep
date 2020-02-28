@@ -1,0 +1,3 @@
+<p><b>Вы намерены повернуть направо. Следует ли уступить дорогу автобусу?</b></p>
+<input type="radio" name="answer" value="1" >Да.<br>
+<input type="radio" name="answer" value="2" >Нет.<br>

@@ -1,0 +1,5 @@
+<p><b>Этот дорожный знак указывает:</b></p>
+<input type="radio" name="answer" value="1" >Расстояние до конца тоннеля.<br>
+<input type="radio" name="answer" value="2" >Расстояние до места аварийной остановки.<br>
+<input type="radio" name="answer" value="3" >Направление движения к аварийному
+выходу и расстояние до него.<br>

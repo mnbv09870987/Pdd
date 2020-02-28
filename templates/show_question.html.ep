@@ -1,13 +1,9 @@
+%	$c->cookie( num => $num );
+
 <p><b>Дай ответ на вопрос №<%= $num %>?</b></p>
 <img src="/Ticket01/question<%= sprintf "%02d", $num %>.jpg">
 
-%	$c->cookie( num => $num );
-
 %= form_for saving_answers => begin
-	<p>
-		<input type="radio" name="answer" value="1" >Вариант 01<br>
-		<input type="radio" name="answer" value="2" >Вариант 02<br>
-		<input type="radio" name="answer" value="3" >Вариант 03<br>
-		<input type="submit">
-	</p>
+	%= include sprintf "ticket01/answers%02d", $num;
+	<input type = "submit" value = "Передать ответ">
 % end

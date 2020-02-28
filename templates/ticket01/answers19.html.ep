@@ -1,0 +1,4 @@
+<input type="radio" name="answer" value="1" >Затормозить и полностью остановиться.<br>
+<input type="radio" name="answer" value="2" >Затормозить и плавно направить автомобиль в левую сторону.<br>
+<input type="radio" name="answer" value="3" >Не прибегая к торможению,
+плавно вернуть автомобиль на проезжую часть.<br>

@@ -1,0 +1,4 @@
+<p><b>Вы намерены повернуть налево. Кому следует уступить дорогу?</b></p>
+<input type="radio" name="answer" value="1" >Только автобусу.<br>
+<input type="radio" name="answer" value="2" >Только легковому автомобилю.<br>
+<input type="radio" name="answer" value="3" >Никому.<br>

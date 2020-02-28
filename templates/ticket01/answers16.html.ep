@@ -1,0 +1,5 @@
+<p><b>С какой максимальной скоростью Вы можете продолжить движение за знаком?</b></p>
+<input type="radio" name="answer" value="1" >60 км/ч.<br>
+<input type="radio" name="answer" value="2" >50 км/ч.<br>
+<input type="radio" name="answer" value="3" >30 км/ч.<br>
+<input type="radio" name="answer" value="4" >20 км/ч.<br>

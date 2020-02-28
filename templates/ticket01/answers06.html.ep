@@ -1,0 +1,4 @@
+<input type="radio" name="answer" value="1" >Предупреждает о неисправности светофора.<br>
+<input type="radio" name="answer" value="2" >Разрешает двежение и информирует о том,
+что вскоре будет включен запрещающий сигнал.<br>
+<input type="radio" name="answer" value="3" >Запрещает дальнейшее движение.<br>

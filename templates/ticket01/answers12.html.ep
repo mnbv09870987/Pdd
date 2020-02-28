@@ -1,0 +1,4 @@
+<p><b>Разрешено ли водителю поставить автомобиль на стоянку
+в указанном месте?</b></p>
+<input type="radio" name="answer" value="1" >Да.<br>
+<input type="radio" name="answer" value="2" >Нет.<br>

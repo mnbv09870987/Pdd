@@ -1,0 +1,5 @@
+<p><b>Обязаны ли Вы в данной ситуации подать сигнал правого поворота?</b></p>
+<input type="radio" name="answer" value="1" >Да.<br>
+<input type="radio" name="answer" value="2" >Да, но только при наличии
+движущихся сзади транспортных средств.<br>
+<input type="radio" name="answer" value="3" >Нет.<br>

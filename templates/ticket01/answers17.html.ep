@@ -1,0 +1,3 @@
+<input type="radio" name="answer" value="1" >Только ближний свет фар.<br>
+<input type="radio" name="answer" value="2" >Только дальний свет фар.<br>
+<input type="radio" name="answer" value="3" >Ближний или дальний свет фар.<br>
